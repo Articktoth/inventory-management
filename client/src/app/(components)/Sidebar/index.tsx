@@ -79,13 +79,13 @@ const Sidebar = () => {
 			>
 				<Image
 					src={
-						"https://s3-inventorymanagement-tutorial.s3.us-east-1.amazonaws.com/.jpg"
+						"https://s3-inventorymanagement-tutorial.s3.us-east-1.amazonaws.com/logo.png"
 					}
 					alt="TothLogo"
 					width={27}
 					height={27}
 					className="rounded w-8"
-				/>{" "}
+				/>
 				<h1
 					className={` ${
 						isSidebarCollapsed ? "hiden" : "block"
